@@ -1,0 +1,25 @@
+.pro {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgba(232, 237, 240, 0.855);
+}
+
+.pro div p {
+    padding: 30px;
+    margin: 0%;
+}
+
+.pro h1 {
+    padding: 30px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+
+}

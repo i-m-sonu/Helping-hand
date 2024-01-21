@@ -1,0 +1,35 @@
+.foot {
+    padding: 20px;
+    background: #000;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr 1fr;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.left {
+    grid: 1/2;
+}
+
+.mid {
+    grid-column-start: 3;
+}
+
+.right {
+   grid-column-start: 4;
+   display: flex;
+}
+
+.icon {
+    filter: invert();
+}
+
+.icon:hover {
+    color: black;
+    transform: scale(1.25);
+}
+.right a{
+    padding: 10px;
+}

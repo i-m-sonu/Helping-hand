@@ -1,0 +1,130 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+
+    background: rgba(89, 198, 249, 0.928);
+
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    /* position: absolute; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    animation: zoom 8s infinite alternate;
+
+}
+
+.para {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 30px;
+    /* margin-left: 200px; */
+
+    /* margin-right: 20px; */
+}
+
+.container {
+    padding: 50px;
+
+
+
+    /* position: relative; */
+
+    animation: circlebr 10s infinite alternate;
+    box-shadow: 4px 5px 20px grey;
+}
+
+@keyframes circlebr {
+    0% {
+        background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+
+    25% {
+        background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+        border-radius: 30% 70% 27% 73% / 72% 52% 48% 28%;
+    }
+
+    50% {
+        background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+        border-radius: 61% 39% 42% 58% / 55% 23% 77% 45%;
+    }
+
+    75% {
+        background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+        border-radius: 13% 87% 14% 86% / 89% 19% 81% 11%;
+    }
+
+    100% {
+        background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0.85);
+
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.85);
+
+    }
+
+
+}
+
+.btn1 {
+    display: none;
+}
+
+.img {
+    /* align-items: center;
+    justify-content: center; */
+
+}
+
+.side {
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width:600px) {
+    .side {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all {
+        padding: 30px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .btn1 {
+        display: inline;
+    }
+}
