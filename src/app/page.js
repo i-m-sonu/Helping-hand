@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import Homepage from "./components/homepage";
-import Skill from "./components/skill";
+import Skill from "./components/Skill";
 import "./globals.css";
 
 const layout = () => {
