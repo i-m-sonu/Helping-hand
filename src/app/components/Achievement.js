@@ -4,8 +4,11 @@ const Achievement = () => {
     <>
       <div className={ach.ach}>
         <h1>Certificates</h1>
-        <h3>Python certification from kaizen system</h3>
-        <h3>Data science with machine learning from Pwskill</h3>
+        <h3> AWS Academy Graduate - AWS Academy Data Engineering</h3>
+        <h3>Red Hat Training</h3>
+        <h3>Google Foundations of Cybersecurity</h3>
+        <h3>AWS Academy Data Engineering</h3>
+        <h3>AWS Academy Cloud Foundations</h3>
       </div>
     </>
   );

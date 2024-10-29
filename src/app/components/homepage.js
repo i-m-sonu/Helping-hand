@@ -25,11 +25,10 @@ const Homepage = () => {
           <div className={home.row}>
             <div className={home.para}>
               <h2>
-                <strong>My name is Arpit Rangra</strong>
+                <strong>My name is Sonu Kumar</strong>
               </h2>
               <p>
-                I am currently persuing Bachelor of technology in Artificial
-                Intelligence and Data Science.
+                I am currently persuing Bachelor of technology in Computer Science and Engineering.
               </p>
             </div >
             <Link href="/components/Resume">
@@ -44,7 +43,7 @@ const Homepage = () => {
         <div className={home.para}>
           <i>
             In the realm of bits and bytes, an
-            <strong> ARTIFICIAL INTELLIGENCE STUDENT </strong>
+            <strong> COMPUTER SCIENCE STUDENT </strong>
             igniting innovation with algorithmic insights.
           </i>
         </div>
