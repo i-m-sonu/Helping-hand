@@ -32,11 +32,11 @@ const Homepage = () => {
               </p>
             </div >
             <Link href="/components/Resume">
-              <Button className={home.btn} variant="contained">Resume</Button>
+              <Button className={home.btn} variant="contained">View Resume</Button>
             </Link>
-            <a href="/" download='/resume.pdf'>
-              <Button className={home.btn1} variant="contained">Resume</Button>
-            </a>
+            {/* <a href="/" download='/resume.pdf'>
+              <Button className={home.btn1} variant="contained">Download Resume</Button>
+            </a> */}
           </div>
         </div>
 
