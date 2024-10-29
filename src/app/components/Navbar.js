@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       <div className={head.head}>
-        <h3>Arpit Rangra</h3>
+        <h3>Sonu Kumar</h3>
         <div className={head.nav}>
           <Link href="/">
             <strong className={head.res}>Home</strong>
@@ -21,19 +21,19 @@ const Navbar = () => {
           <Link href="/components/Resume">
             <strong className={head.res}>Resume</strong>
           </Link>
-          <Link href="/components/Project">
+          {/* <Link href="/components/Project">
             <strong className={head.res}>Project</strong>
-          </Link>
+          </Link> */}
           {/* </a> */}
         </div>
         <div className={head.link}>
           <div>
-            <a href="https://www.linkedin.com/in/arpit-rangra-9b9321205/">
+            <a href="https://www.linkedin.com/in/sonu007/">
               <LinkedInIcon className={head.icon} />
             </a>
           </div>
           <div>
-            <a href="https://github.com/Arpit110934">
+            <a href="https://github.com/i-m-sonu">
               <GitHubIcon className={head.icon} />
             </a>
           </div>
